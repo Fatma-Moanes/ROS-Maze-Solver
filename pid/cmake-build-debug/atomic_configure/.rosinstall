@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/shaffei/embedded/src/pid/cmake-build-debug/devel/setup.sh

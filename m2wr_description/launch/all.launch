@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<include file="$(find rosbot_gazebo)/launch/my_maze.launch" />
+    <include file="$(find m2wr_description)/launch/spawn.launch" />
+    <node type="complementary_filter_node" name="imu_filter" pkg="imu_complementary_filter">
+    	<param name="use_mag" value="false"/>
+    	<param name="publish_debug_topics" value="true"/>
+    </node>
+
+    <node type="maze_solver.py" name="maze_solver" pkg="maze_solver"/>
+    <node type="pid" name="pid" pkg="pid"/>
+</launch>
