@@ -48,9 +48,16 @@ path between these two nodes. Figure [1](#fig:maze_samp), shows a sample
 maze, and figure [2](#fig:graph) shows the graph corresponding to this
 maze.
 
-![Sample Maze](Maze_Sample.jpg)
+| ![Sample Maze](Maze_Sample.jpg) | 
+|:--:| 
+| *Figure 1: Sample Maze* |
 
-![Graph of the sample maze](graph.jpg)
+<br />
+<br />
+
+| ![Graph of the sample maze](graph.jpg) |
+|:--:|
+| *Figure 2: Graph of the Sample Maze* |
 
 Using the path obtained by the uniform cost search algorithm we start
 moving the robot forward until its ultrasonic sensor detects that the
@@ -101,11 +108,26 @@ text file containing the maze as an input and then:
 Figures [3](#fig:sim1), [4](#fig:sim2) and [5](#fig:sim3) show the
 Gazebo simulation of the implemented Maze Solver robot.
 
-![The robot is at the beginning of the maze](sim1.jpeg)
+| ![The robot is at the beginning of the maze](sim1.jpeg) |
+|:--:|
+| *Figure 3: The robot is at the beginning of the maze* |
 
-![The robot is moving through the maze to reach its target](sim2.jpeg)
+<br />
+<br />
 
-![The robot exited the maze successfully](sim3.jpeg)
+| ![The robot is moving through the maze to reach its target](sim2.jpeg) |
+|:--:|
+| *Figure 4: The robot is moving through the maze to reach its target* |
+
+<br />
+<br />
+
+| ![The robot exited the maze successfully](sim3.jpeg) |
+|:--:|
+| *Figure 5: The robot exited the maze successfully* |
+
+<br />
+<br />
 
 # Hardware
 
